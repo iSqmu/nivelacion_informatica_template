@@ -1,0 +1,117 @@
+.body {
+    background-color: #e5e5f7;
+opacity: 1;
+background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#515151 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #515151 2px, #e5e5f7 2px) -1px 0;
+background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+}
+
+#cards{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+
+  padding: 20px;
+  background: #252525;
+  color: white;
+  width: 33,3%;
+  height: 270px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ff0;
+  transition: all 0.5s;
+  margin: 10px;
+  opacity: 80%;
+  
+}
+
+.card:hover {
+    opacity: 100%;
+}
+
+
+.btn {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    background: whitesmoke;
+    width: 50px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #252525;
+    box-shadow: 0 0 5px #ff0;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+}
+
+.btn:hover {
+    height: 35px;
+    width: 55px;
+}
+
+/* footer */
+
+.footer {
+    padding:40px 0;
+    background-color:#252525;
+    color:#fff;
+    border-radius: 20px;
+  }
+  
+  .footer ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer li {
+    padding:0 10px;
+  }
+  
+  .footer ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.2;
+    transition: 0.5s;
+  }
+  
+  .footer ul a:hover {
+    opacity:1;
+  }
+  
+  .footer .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.2;
+    transition: 0.5s;
+  }
+  
+  .footer .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
